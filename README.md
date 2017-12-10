@@ -14,22 +14,12 @@ This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-t
 * keras 2.0.x
 * torchfile 
 
-Optionally:
-
-* OpenCV with contrib modules (for `webcam.py`)
-  * MacOS install http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/
-  * Linux install http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
-* ffmpeg (for video stylization)
 
 ## Training
 
-1. Download [MS COCO images](http://mscoco.org/dataset/#download) and [Wikiart images](https://www.kaggle.com/c/painter-by-numbers).
+Example of training:
 
-2. Download VGG19 model: `bash models/download_models.sh`
-
-3. `python train.py --content-path /path/to/coco --style-path /path/to/wikiart --batch-size 8 --content-weight 1 --style-weight 1e-2 --tv-weight 0 --checkpoint /path/to/checkpointdir --learning-rate 1e-4 --lr-decay 1e-5`
-
-3. Monitor training with TensorBoard: `tensorboard --logdir /path/to/checkpointdir`
+`python train.py --content-path /path/to/coco --style-path /path/to/wikiart --batch-size 8 --content-weight 1 --style-weight 1e-2 --tv-weight 0 --checkpoint /path/to/checkpointdir --learning-rate 1e-4 --lr-decay 1e-5`
 
 ## Running a trained model (stylize.py)
 
@@ -43,4 +33,4 @@ Example of execution:
 
 
 ## References
-[AdaIN-TF] (https://github.com/eridgd/AdaIN-TF)
+[AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
