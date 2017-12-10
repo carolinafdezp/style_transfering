@@ -1,5 +1,4 @@
 # DLAI Style Transfering - Team 1 
-
 <p align='center'>
 	<img src='examples/gilbert.gif'>
 </p>
