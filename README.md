@@ -24,6 +24,7 @@ Example of training:
 
 Example of execution:
 
+`python stylize.py --checkpoint checkpoints --style-path images/styles --content-path images/inputs --out-path images/output`
 
 ## Notes
 
