@@ -28,12 +28,12 @@ Example of execution:
 
 ## Notes
 
-* Original paper [here](https://distill.pub/2016/deconv-checkerboard/)
+* Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
 
 
 
 ## References
-[AdaIN-TF](https://github.com/eridgd/AdaIN-TF).
+[AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
 
 
 ## Jupyter Notebook
