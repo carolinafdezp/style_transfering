@@ -38,7 +38,7 @@ Example of execution:
 ## Some results
 
 <p align='center'>
-	<img src='examples/rap.jpg'>
+	<img src='examples/vangogh.jpg'>
 </p>
 
 ## Jupyter Notebook
