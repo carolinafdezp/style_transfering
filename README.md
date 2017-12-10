@@ -1,4 +1,4 @@
-# DLAI Style Transfering - Team 1 
+# DLAI 17/18: Style Transfering - Team 1 
 
 Members: Itziar Sagastiberri, Mireia Gartzia, Cristina González, Carolina Fernández-Pedraza
 
