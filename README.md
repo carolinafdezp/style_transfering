@@ -33,4 +33,7 @@ Example of execution:
 
 
 ## References
-[AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
+[AdaIN-TF](https://github.com/eridgd/AdaIN-TF).
+
+
+## Jupyter Notebook
