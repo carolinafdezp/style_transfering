@@ -1,9 +1,6 @@
 # DLAI Style Transfering - Team 1 
 
 Members: Itziar Sagastiberri, Mireia Gartzia, Cristina González, Carolina Fernández-Pedraza
-<p align='center'>
-	<img src='examples/gilbert.gif'>
-</p>
 
 This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/abs/1703.06868).
 
@@ -41,7 +38,7 @@ Example of execution:
 ## Some results
 
 <p align='center'>
-	<img src='C:\Users\Carolina\Pictures\rap.jpg'>
+	<img src='C:\Users\Carolina\Imágenes\rap.jpg'>
 </p>
 
 ## Jupyter Notebook
