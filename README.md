@@ -38,4 +38,10 @@ Example of execution:
 [AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
 
 
+## Some results
+
+<p align='center'>
+	<img src='C:\Users\Carolina\Pictures\rap.jpg'>
+</p>
+
 ## Jupyter Notebook
