@@ -15,7 +15,7 @@ This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-t
 * torchfile 
 
 
-## Training
+## Training (train.py)
 
 Example of training:
 
@@ -28,7 +28,7 @@ Example of execution:
 
 ## Notes
 
-* I tried to stay as faithful as possible to the paper and the author's implementation. This includes the decoder architecture, default hyperparams, image preprocessing, use of reflection padding in all conv layers, and bilinear upsampling + conv instead of transposed convs in the decoder. The latter two techniques help to avoid border artifacts and checkerboard patterns as described in https://distill.pub/2016/deconv-checkerboard/.
+* Original paper [here](https://distill.pub/2016/deconv-checkerboard/)
 
 
 
