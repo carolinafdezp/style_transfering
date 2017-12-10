@@ -13,13 +13,13 @@ This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-t
 * torchfile 
 
 
-## Training (train.py)
+## Training
 
 Example of training:
 
 `python train.py --content-path /path/to/coco --style-path /path/to/wikiart --batch-size 8 --content-weight 1 --style-weight 1e-2 --tv-weight 0 --checkpoint /path/to/checkpointdir --learning-rate 1e-4 --lr-decay 1e-5`
 
-## Running a trained model (stylize.py)
+## Running a trained model
 
 Example of execution:
 
