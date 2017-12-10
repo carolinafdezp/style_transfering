@@ -1,4 +1,6 @@
 # DLAI Style Transfering - Team 1 
+
+Members: Itziar Sagastiberri, Mireia Gartzia, Cristina González, Carolina Fernández-Pedraza
 <p align='center'>
 	<img src='examples/gilbert.gif'>
 </p>
