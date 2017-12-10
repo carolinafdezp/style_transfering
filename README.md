@@ -41,4 +41,8 @@ Example of execution:
 	<img src='examples/vangogh.jpg'>
 </p>
 
+<p align='center'>
+	<img src='examples/picasso.jpg'>
+</p>
+
 ## Jupyter Notebook
