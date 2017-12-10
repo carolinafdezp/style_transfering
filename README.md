@@ -1,2 +1,2 @@
-# style_transfering
-DLAI Project 17/18 Team 1 Style Transfering
+# Style Transfering - Team 1 DLAI
+Itziar Sagastiberri, Mireia Gartzia, Cristina Delgado, Carolina Fernández-Pedraza
