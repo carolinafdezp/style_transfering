@@ -121,10 +121,10 @@ Finally, we obtained using tensorboard several graphics showing how the losses e
 	<img src='losses/Captura de pantalla 2017-12-11 a las 19.36.14.png'>
 </p>
 <p align='left'>
-	<img src='losses/Captura de pantalla 2017-12-11 a las 19.36.14.png'>
+	<img src='losses/Captura de pantalla 2017-12-11 a las 19.36.20.png'>
 </p>
 <p align='left'>
-	<img src='losses/Captura de pantalla 2017-12-11 a las 19.36.14.png'>
+	<img src='losses/Captura de pantalla 2017-12-11 a las 19.36.26.png'>
 </p>
 
 ## Problems we had
