@@ -11,7 +11,36 @@ This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-t
 * tensorflow 1.2.1+
 * keras 2.0.x
 * torchfile
+* pillow
+* opencv
 
+## Concept of style transfer
+
+Style transfer isa technique consisting in recomposing an image into a particular style
+
+## Background on style transfer
+
+There are basically to type of style transfer networks commonly used:
+
+1. Slow and Arbitrary style transfer
+	- It uses the VGG network to extract the content and style losses and then performs an iterative optmization that has 		the goal of finding the image output that reduces both losses.
+	- It is able to apply to the content image several styles selected, being flexible.
+	- But, the optimization process is very time consuming, not being able to work in real time.
+
+2. Fast and limited to the style network
+	- It replaces the iterative optimization network by a feed forward network
+	- This network is much faster.
+	- It is not flexible. To apply to content images different styles, we need to train the network with each of them.
+
+## Implemented project characteristics and architecture:
+
+The style transfer network we have implemented is fast and flexible at the same time.
+The general idea is to use as feedforward network input both the style images and content, rather than only the content images as the network commented above does.
+
+The architecture consists basically in three parts:
+1- Encoding of the content and style input images using layers of VGG19 network.
+2- Then the AdaIn layer aligns the mean and the variance of the content image to the style image. Since mean and variance contain style information, by using this layer, we are matching the images style.
+3- The decoder transforms the ouput of the AdaIn layer into the pixel space. This encoder basically mirrors the encoder.
 
 ## Training
 
