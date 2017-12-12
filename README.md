@@ -38,9 +38,9 @@ The style transfer network we have implemented is fast and flexible at the same 
 The general idea is to use as feedforward network input both the style images and content, rather than only the content images as the network commented above does.
 
 The architecture consists basically in three parts:
-1- Encoding of the content and style input images using layers of VGG19 network.
-2- Then the AdaIn layer aligns the mean and the variance of the content image to the style image. Since mean and variance contain style information, by using this layer, we are matching the images style.
-3- The decoder transforms the ouput of the AdaIn layer into the pixel space. This encoder basically mirrors the encoder.
+	1- Encoding of the content and style input images using layers of VGG19 network.
+	2- Then the AdaIn layer aligns the mean and the variance of the content image to the style image. Since mean and 	    variance contain style information, by using this layer, we are matching the images style.
+	3- The decoder transforms the ouput of the AdaIn layer into the pixel space. This encoder basically mirrors the 	   encoder.
 
 ## Training
 
@@ -66,6 +66,14 @@ Also in the folder "styles" and "inputs" we have uploaded the original styles an
 <p align='center'>
 	<img src='examples/picasso.jpg'>
 </p>
+
+We have done tests by changing several parameters and observing the network results and performance.
+
+The first test was done changing the number of epochs:
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 ## Notes
 
