@@ -72,15 +72,42 @@ We have done tests by changing several parameters and observing the network resu
 The first test was done changing the number of epochs:
 * For 2000 epochs
 <p align='left'>
-	<img src='examples/outputs/outputs1.2/livingroom_kandinsky.png'>
+	<img src='xamples/outputs/outputs2.2/harry_potter_leonid_afremov.jpg'>
 </p>
-<p align='center'>
-	<img src='examples/outputs/outputs2./harry_potter_leonid_afremov.png'>
-</p>
+
 * For 7000 epochs
 <p align='left'>
-	<img src='examples/outputs/outputs1.1/livingroom_kandinsky.png'>
+	<img src='examples/outputs/outputs2.1/harry_potter_leonid_afremov.jpg'>
 </p>
+* For 20000 epochs
+<p align='left'>
+	<img src='examples/outputs/outputs2.4/harry_potter_leonid_afremov.jpg'>
+</p>
+
+We can see that up to 7000 epochs it improves. But, the network suffers from overfitting in epoch number 20000.
+
+
+Also, we checked the performance for 2000 epochs and two datasets:
+* For the whole dataset (50000) the image obtained is:
+<p align='left'>
+	<img src='xamples/outputs/outputs2.2/harry_potter_leonid_afremov.jpg'>
+</p>
+
+* For the reduced dataset (250 images) the result obtained is:
+<p align='left'>
+	<img src='examples/outputs/outputs2.3/harry_potter_leonid_afremov.jpg'>
+</p>
+
+Finally, we played with the style and content weights.
+* For a low style weight:
+<p align='left'>
+	<img src='examples/outputs/outputs1.2/harry_potter_leonid_afremov.jpg'>
+</p>
+* For a hight style weight:
+<p align='left'>
+	<img src='examples/outputs/outputs1.3/harry_potter_leonid_afremov.jpg'>
+</p>
+
 ## Notes
 
 * Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
