@@ -106,7 +106,7 @@ Also, we checked the performance for 2000 epochs and two datasets:
 We can clearly see the results are much better for the first case, and that there is overfitting in the second one.
 
 
-Finally, we played with the style and content weights.
+Then, we played with the style and content weights.
 * For a low style weight:
 <p align='left'>
 	<img src='examples/outputs/outputs1.2/livingroom_kandinsky.png'>
@@ -116,6 +116,7 @@ Finally, we played with the style and content weights.
 	<img src='examples/outputs/outputs1.3/livingroom_kandinsky.png'>
 </p>
 
+Finally, we obtained using tensorboard several graphics showing how the losses evolved.
 ## Problems we had
 * Setting up the virtual machine
 * Permissions
