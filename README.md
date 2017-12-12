@@ -1,8 +1,8 @@
 # DLAI 17/18: Style Transfering - Team 1 
 
-Link to the repository: https://github.com/carolinafdezp/style_transfering
-
 Members: Itziar Sagastiberri, Mireia Gartzia, Cristina González, Carolina Fernández-Pedraza.
+
+Link to the repository: https://github.com/carolinafdezp/style_transfering
 
 This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/abs/1703.06868).
 
@@ -18,7 +18,7 @@ This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-t
 
 ## Concept of style transfer
 
-Style transfer isa technique consisting in recomposing an image into a particular style
+Style transfer is a technique consisting in recomposing an image into a particular style
 
 ## Background on style transfer
 
@@ -44,7 +44,10 @@ The architecture consists basically in three parts:
 * Then the AdaIn layer aligns the mean and the variance of the content image to the style image. Since mean and 	    variance contain style information, by using this layer, we are matching the images style.
 * The decoder transforms the ouput of the AdaIn layer into the pixel space. This encoder basically mirrors the 	   	     encoder.
 
+
 ## Training
+
+The decoder is trainned to reduce the total, which is a weighted sum of the content loss and style loss.
 
 Example of training:
 
