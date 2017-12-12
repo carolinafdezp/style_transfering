@@ -101,11 +101,11 @@ Also, we checked the performance for 2000 epochs and two datasets:
 Finally, we played with the style and content weights.
 * For a low style weight:
 <p align='left'>
-	<img src='examples/outputs/outputs1.2/harry_potter_leonid_afremov.jpg'>
+	<img src='examples/outputs/outputs1.2/livingroom_kandinsky.png'>
 </p>
 * For a hight style weight:
 <p align='left'>
-	<img src='examples/outputs/outputs1.3/harry_potter_leonid_afremov.jpg'>
+	<img src='examples/outputs/outputs1.3/livingroom_kandinsky.png'>
 </p>
 
 ## Notes
