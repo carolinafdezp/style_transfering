@@ -47,7 +47,7 @@ The architecture consists basically in three parts:
 
 ## Training
 
-The decoder is trainned to reduce the total, which is a weighted sum of the content loss and style loss.
+The decoder is trainned to reduce the total loss, which is a weighted sum of the content loss and style loss.
 
 Example of training:
 
