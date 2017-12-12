@@ -2,7 +2,7 @@
 
 Members: Itziar Sagastiberri, Mireia Gartzia, Cristina González, Carolina Fernández-Pedraza.
 
-Link to the repository: [https://github.com/carolinafdezp/style_transfering](https://github.com/carolinafdezp/style_transfering).
+Link to the repository: [Repository](https://github.com/carolinafdezp/style_transfering).
 
 This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/abs/1703.06868).
 
