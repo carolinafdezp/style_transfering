@@ -126,6 +126,7 @@ Finally, we obtained using tensorboard several graphics showing how the losses e
 <p align='left'>
 	<img src='losses/Captura de pantalla 2017-12-11 a las 19.36.14.png'>
 </p>
+
 ## Problems we had
 * Setting up the virtual machine
 * Permissions
