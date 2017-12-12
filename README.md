@@ -10,7 +10,7 @@ This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-t
 * Python 3.x
 * tensorflow 1.2.1+
 * keras 2.0.x
-* torchfile 
+* torchfile
 
 
 ## Training
@@ -21,18 +21,18 @@ Example of training:
 
 ## Running a trained model
 
-Example of execution:
+Example of testing:
 
 `python stylize.py --checkpoint checkpoints --style-path images/styles --content-path images/inputs --out-path images/output`
+
+## Results
+In the folder called "examples" there are some examples that  we have obtained after executing stylize.py with different options (weights, iterations...).
+
+Also in the folder "styles" and "inputs" we have uploaded the original styles and images used for our experiments (downloaded from Google Images).
 
 ## Notes
 
 * Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
-
-
-
-## References
-[AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
 
 
 ## Some results
@@ -44,5 +44,9 @@ Example of execution:
 <p align='center'>
 	<img src='examples/picasso.jpg'>
 </p>
+
+
+## References
+[AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
 
 ## Jupyter Notebook
