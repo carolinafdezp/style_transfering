@@ -72,7 +72,7 @@ We have done tests by changing several parameters and observing the network resu
 The first test was done changing the number of epochs:
 * For 2000 epochs
 <p align='left'>
-	<img src='xamples/outputs/outputs2.2/harry_potter_leonid_afremov.jpg'>
+	<img src='examples/outputs/outputs2.2/harry_potter_leonid_afremov.jpg'>
 </p>
 
 * For 7000 epochs
@@ -90,7 +90,7 @@ We can see that up to 7000 epochs it improves. But, the network suffers from ove
 Also, we checked the performance for 2000 epochs and two datasets:
 * For the whole dataset (50000) the image obtained is:
 <p align='left'>
-	<img src='xamples/outputs/outputs2.2/harry_potter_leonid_afremov.jpg'>
+	<img src='examples/outputs/outputs2.2/harry_potter_leonid_afremov.jpg'>
 </p>
 
 * For the reduced dataset (250 images) the result obtained is:
