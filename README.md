@@ -30,13 +30,6 @@ In the folder called "examples" there are some examples that  we have obtained a
 
 Also in the folder "styles" and "inputs" we have uploaded the original styles and images used for our experiments (downloaded from Google Images).
 
-## Notes
-
-* Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
-
-
-## Some results
-
 <p align='center'>
 	<img src='examples/vangogh.jpg'>
 </p>
@@ -44,6 +37,10 @@ Also in the folder "styles" and "inputs" we have uploaded the original styles an
 <p align='center'>
 	<img src='examples/picasso.jpg'>
 </p>
+
+## Notes
+
+* Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
 
 
 ## References
