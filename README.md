@@ -1,5 +1,7 @@
 # DLAI 17/18: Style Transfering - Team 1 
 
+Link to the repository: https://github.com/carolinafdezp/style_transfering
+
 Members: Itziar Sagastiberri, Mireia Gartzia, Cristina González, Carolina Fernández-Pedraza.
 
 This is a TensorFlow/Keras implementation of [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/abs/1703.06868).
