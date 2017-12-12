@@ -108,6 +108,28 @@ Finally, we played with the style and content weights.
 	<img src='examples/outputs/outputs1.3/livingroom_kandinsky.png'>
 </p>
 
+## Problems we had
+* Setting up the virtual machine
+* Permissions
+* We had to change project
+* Access to the machine in some computers
+* Memory
+
+
+## What we have learned
+Programming Platforms:
+* Setting up Google Cloud Platform
+* Keras basic functions learning
+* Tensorboard issues (acces from PC)
+* Jupyter notebook usage
+* Github usage
+
+Deep learning:
+* Hyperparameters tunning: Underfitting/Overfitting
+* Transfer learning (from VGG19)
+* Convolutional network architectures
+
+
 ## Notes
 
 * Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
