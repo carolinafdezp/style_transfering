@@ -95,7 +95,7 @@ Also, we checked the performance for 2000 epochs and two datasets:
 
 * For the reduced dataset (250 images) the result obtained is:
 <p align='left'>
-	<img src='examples/outputs/outputs2.3/harry_potter_leonid_afremov.jpg'>
+	<img src='examples/outputs/output2.3/harry_potter_leonid_afremov.jpg'>
 </p>
 
 Finally, we played with the style and content weights.
