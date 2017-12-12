@@ -98,6 +98,9 @@ Also, we checked the performance for 2000 epochs and two datasets:
 	<img src='examples/outputs/output2.3/harry_potter_leonid_afremov.jpg'>
 </p>
 
+We can clearly see the results are much better for the first case, and that there is overfitting in the second one.
+
+
 Finally, we played with the style and content weights.
 * For a low style weight:
 <p align='left'>
