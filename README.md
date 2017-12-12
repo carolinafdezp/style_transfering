@@ -70,10 +70,11 @@ Also in the folder "styles" and "inputs" we have uploaded the original styles an
 We have done tests by changing several parameters and observing the network results and performance.
 
 The first test was done changing the number of epochs:
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+* For 2000 epochs
+<p align='center'>
+	<img src='examples/picasso.jpg'>
+</p>
+* For 7000 epochs
 
 ## Notes
 
