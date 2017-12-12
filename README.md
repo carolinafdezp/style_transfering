@@ -38,9 +38,9 @@ The style transfer network we have implemented is fast and flexible at the same 
 The general idea is to use as feedforward network input both the style images and content, rather than only the content images as the network commented above does.
 
 The architecture consists basically in three parts:
-	- Encoding of the content and style input images using layers of VGG19 network.
-	- Then the AdaIn layer aligns the mean and the variance of the content image to the style image. Since mean and 	    variance contain style information, by using this layer, we are matching the images style.
-	- The decoder transforms the ouput of the AdaIn layer into the pixel space. This encoder basically mirrors the 	   	     encoder.
+* Encoding of the content and style input images using layers of VGG19 network.
+* Then the AdaIn layer aligns the mean and the variance of the content image to the style image. Since mean and 	    variance contain style information, by using this layer, we are matching the images style.
+* The decoder transforms the ouput of the AdaIn layer into the pixel space. This encoder basically mirrors the 	   	     encoder.
 
 ## Training
 
