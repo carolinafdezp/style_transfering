@@ -72,10 +72,15 @@ We have done tests by changing several parameters and observing the network resu
 The first test was done changing the number of epochs:
 * For 2000 epochs
 <p align='left'>
-	<img src='examples/outputs/outputs1.2/livingroom_leonid.png'>
+	<img src='examples/outputs/outputs1.2/livingroom_kandinsky.png'>
+</p>
+<p align='center'>
+	<img src='examples/outputs/outputs2./harry_potter_leonid_afremov.png'>
 </p>
 * For 7000 epochs
-
+<p align='left'>
+	<img src='examples/outputs/outputs1.1/livingroom_kandinsky.png'>
+</p>
 ## Notes
 
 * Original paper [here](https://distill.pub/2016/deconv-checkerboard/).
