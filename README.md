@@ -158,3 +158,4 @@ Deep learning:
 [AdaIN-TF](https://github.com/eridgd/AdaIN-TF)
 
 ## Jupyter Notebook
+It is included in stylize.ipynb file uploaded in github page.
